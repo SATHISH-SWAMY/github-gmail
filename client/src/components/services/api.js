@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const API_URL = 'https://backend-code-1-p7fb.onrender.com/';
+const API_URL = 'https://backend-code-1-p7fb.onrender.com';
 
 const API_GMAIL = async (urlObject, payload, type) =>{
     return await axios({
